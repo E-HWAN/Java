@@ -71,5 +71,21 @@ public class _04_SwitchCase {
         }
         System.out.println(grade + "제품의 가격 : " + price + "원 입니다.");
 
+        String fruit = "banana";
+
+        switch(fruit) {
+            case "banana":
+                System.out.println("바나나 입니다.");
+            break;
+
+            case "*orange":
+                System.out.println("오랜지 입니다.");
+            break;
+
+            case "apple":
+                System.out.println("사과 입니다.");
+            break;
+        }
+
     }
 }
