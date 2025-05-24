@@ -8,11 +8,14 @@ public class _Quiz_05 {
         // 신발 사이즈 수는 총 10가지
         // 예시) 사이즈 ~ (재고 있음)
 
-        int[] size = new int[10];
 
-        for (int i = 0; i < 10; i++) {
-            size[i] = 250 + (i * 5);
-            System.out.println("사이즈 " + size[i] + " (재고있음)");
+        int[] sizeArray = new int[10];
+        for (int i = 0; i < sizeArray.length ; i++) {
+            sizeArray[i] = 250 + (i * 5);
+        }
+
+        for (int size : sizeArray) {
+            System.out.println("사이즈 " + size + " (재고있음)");
 
         }
 
