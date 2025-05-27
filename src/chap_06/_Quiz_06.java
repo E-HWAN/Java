@@ -2,6 +2,7 @@ package chap_06;
 
 public class _Quiz_06 {
 
+
     public static String getHiddenData(String str, int start){
 
     String result = str.substring(0,start);
